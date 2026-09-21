@@ -1,0 +1,10 @@
+{
+  "P01": {
+    "display_name": "Member 1",
+    "student_id": "DEMO001"
+  },
+  "P02": {
+    "display_name": "Member 2",
+    "student_id": "DEMO002"
+  }
+}

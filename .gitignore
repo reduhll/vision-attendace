@@ -22,3 +22,25 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+# Python environment/cache
+.venv/
+__pycache__/
+*.pyc
+
+# VisionAttend biometric data - keep local, never commit
+backend/data/
+backend/embeddings/
+backend/participants.json
+*.npy
+
+# Biometric data - NEVER upload
+backend/data/
+backend/backend/data/
+
+backend/embeddings/
+backend/backend/embeddings/
+
+backend/participants.json
+backend/backend/participants.json
+
+*.npy
